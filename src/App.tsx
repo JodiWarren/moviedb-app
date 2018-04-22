@@ -1,4 +1,4 @@
-import { TmdbApi } from "@jodi/tmdb-typescript-api";
+import {TmdbApi} from "@jodi/tmdb-typescript-api";
 import * as React from 'react';
 
 import './App.css';
@@ -10,7 +10,8 @@ class App extends React.Component {
   public api: TmdbApi | null = null;
 
   public state = {
-    movies: {}
+    resultList: [],
+    results: {},
   };
 
   public input: HTMLInputElement | null = null;
@@ -24,10 +25,33 @@ class App extends React.Component {
     if (this.api === null || this.input === null) {
       return;
     }
-    this.api.search.movies(this.input.value).subscribe(movies => {
-      this.setState({movies});
+
+    if (this.input.value.length === 0) {
+      this.setState({
+        resultList: [],
+      })
+    }
+
+    this.api.search.multi(this.input.value).subscribe(searchResults => {
+      this.setState({
+        resultList: searchResults.results.map(result => {
+          switch (result.media_type) {
+            case('tv') : {
+              return result.name;
+            }
+            case('movie') : {
+              return result.title;
+            }
+            case('person') : {
+              return result.name;
+            }
+          }
+          return '';
+        }),
+        // results,
+      });
     })
-  }
+  };
 
   public render() {
     return (
@@ -35,7 +59,7 @@ class App extends React.Component {
         <header className="App-header">
           <h1 className="App-title">Movie App</h1>
         </header>
-        <p className="App-intro">
+        <div className="App-intro">
           <form id="searchMovies" className="searchMovies" onSubmit={this.handleSubmit}>
             <label htmlFor="">Search Movies</label>
             <input
@@ -45,10 +69,10 @@ class App extends React.Component {
               ref={(input) => this.input = input}
             />
           </form>
-        </p>
+        </div>
         <pre className="api-results">
             {
-              JSON.stringify(this.state.movies, null, 2)
+              JSON.stringify(this.state.resultList, null, 2)
             }
         </pre>
       </div>
