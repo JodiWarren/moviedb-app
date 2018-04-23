@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.pagination__back {
+  margin-right: 10px;
+  margin-left: auto;
+  min-width: 50px;
+}
+
+.pagination__forwards {
+  margin-left: 10px;
+  margin-right: auto;
+  min-width: 50px;
+}
+
+.pagination__forwards,
+.pagination__back {
+  padding: 4px 6px;
+  border-radius: 2px;
+  background: white;
+}
+
+.pagination__forwards--placeholder,
+.pagination__back--placeholder {
+  border: none;
+  background-color: transparent;
+}

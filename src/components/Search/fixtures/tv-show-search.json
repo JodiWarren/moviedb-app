@@ -1,0 +1,96 @@
+{
+  "page": 1,
+  "total_results": 5,
+  "total_pages": 1,
+  "results": [
+    {
+      "original_name": "The Wire",
+      "id": 1438,
+      "name": "The Wire",
+      "vote_count": 612,
+      "vote_average": 8.28,
+      "poster_path": "/dg7NuKDjmS6OzuNy33qt8kSkPA1.jpg",
+      "first_air_date": "2002-06-02",
+      "popularity": 37.963712,
+      "genre_ids": [
+        18,
+        80
+      ],
+      "original_language": "en",
+      "backdrop_path": "/4hWfYN3wiOZZXC7t6B70BF9iUvk.jpg",
+      "overview": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "original_name": "Wire in the Blood",
+      "id": 6322,
+      "name": "Wire in the Blood",
+      "vote_count": 20,
+      "vote_average": 7.48,
+      "poster_path": "/gVQ6nRtLeAZzmFu7VkBwoNsl4L6.jpg",
+      "first_air_date": "2002-11-14",
+      "popularity": 4.261219,
+      "genre_ids": [
+        80,
+        9648
+      ],
+      "original_language": "en",
+      "backdrop_path": "/hzP06zBNTAxWSIgB7xSqBtup0hk.jpg",
+      "overview": "Clinical psychologist Dr Tony Hill's uncanny ability to see into the minds of murderers means he finds it difficult to distance himself from disturbing cases.",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "The War Behind The Wire",
+      "id": 29155,
+      "name": "The War Behind The Wire",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": null,
+      "first_air_date": "2000-11-10",
+      "popularity": 1.001177,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "",
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "original_name": "Charlie Brooker's Tapping the wire",
+      "id": 51022,
+      "name": "Charlie Brooker's Tapping the wire",
+      "vote_count": 3,
+      "vote_average": 5.67,
+      "poster_path": "/1tJmpLX68ip7Hi0TtIQr6dLGkKX.jpg",
+      "first_air_date": "2007-07-01",
+      "popularity": 1.117459,
+      "genre_ids": [
+        99
+      ],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "Charlie Brooker talks to the cast of The Wire, and to Baltimore natives, to find out what makes the show so special.",
+      "origin_country": []
+    },
+    {
+      "original_name": "The Quantum Tamers: Revealing our Weird and Wired Future",
+      "id": 58641,
+      "name": "The Quantum Tamers: Revealing our Weird and Wired Future",
+      "vote_count": 0,
+      "vote_average": 0,
+      "poster_path": "/93j9fhVxxxhoXK6eaNJe6uiRzC1.jpg",
+      "first_air_date": "",
+      "popularity": 1,
+      "genre_ids": [],
+      "original_language": "en",
+      "backdrop_path": null,
+      "overview": "",
+      "origin_country": []
+    }
+  ]
+}
