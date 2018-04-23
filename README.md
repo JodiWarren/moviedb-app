@@ -1,6 +1,8 @@
 # The Movie DB app
 
-A search app powered by the Movie DB API. It's built with TypeScript using React. The library [tmdb-typescript-api](https://github.com/xusoo/tmdb-typescript-api) is used to fetch data and get type definitions for the API (see Notes below).  
+A search app powered by the Movie DB API. It's built with TypeScript using React. The library [tmdb-typescript-api](https://github.com/xusoo/tmdb-typescript-api) is used to fetch data and get type definitions for the API (see Notes below).
+
+[Live example](https://jodiwarren.github.io/moviedb-app)
 
 ![App Screenshot](screenshot.jpg)
 
@@ -34,6 +36,8 @@ $ npm start
 ```
 
 ## Notes
+
+
 The general rule of thumb is that the overall structure of the app roughly resembles the component tree, though it's by no means a rigorously applied rule.
 
 API responess are cached with `sessionStorage`. This was chosen over the similarly simple `localStorage` as it self-invalidates. In the future, a more long-term storage solution such as localStorage or IndexedDB could be used with a retrieval timestamp in order to achieve fine-grained and managed cache invalidation.
