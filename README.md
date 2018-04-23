@@ -50,6 +50,7 @@ At time of writing, the tests are focusing on the non-presentational components,
 
 ## Todo
 ### Features
+- [ ] Expose the loading state via the UI
 - [ ] Accept user API key, and save it to localstorage
 - [ ] Use responsive images so that large images aren't served to small screens
 - [ ] Fall back to other images if `backdrop` is not available
