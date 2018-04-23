@@ -10,6 +10,7 @@ This project is still very much a WIP.
 - [Node.js](https://nodejs.org/)
 - [yarn](https://yarnpkg.com/) (optional but recommended)
 
+You will need to supply your own Movie DB API key. This can be found on [your Settings/API page](https://www.themoviedb.org/settings/api). Use the v3 auth key. 
 
 ## Get started:
 ```bash
